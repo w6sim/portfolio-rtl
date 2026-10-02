@@ -1,0 +1,152 @@
+
+
+.php-email-form .error-message {
+    text-align: right;
+}
+
+/* hero section*/
+    
+
+/*---------*/
+.php-email-form .loading:before {
+    margin: 0 0 -6px 10px;
+}
+
+.header .logo img {
+  margin-left: 8px;
+}
+
+@media (min-width: 1200px) {
+
+  .header~main,
+  .header~#footer {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header {
+    right: -100%;
+  }
+}
+
+.header.header-show {
+  right: 0;
+}
+
+.navmenu a .navicon,
+.navmenu a:focus .navicon {
+  margin-left: 10px;
+}
+
+.navmenu a .toggle-dropdown,
+.navmenu a:focus .toggle-dropdown {
+    margin-right: auto;
+}
+
+#preloader:before {
+    right: calc(50% - 30px);
+}
+
+.scroll-top {
+    left: 15px;
+}
+
+.page-title .breadcrumbs ol li+li {
+  padding-right: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+  padding-left: 10px;
+}
+
+.section-title h2:after {
+  right: 0;
+}
+
+.hero .social-links a {
+  margin-left: 20px;
+}
+
+.about .content ul strong {
+  margin-left: 10px;
+}
+
+.about .content ul i {
+  margin-left: 5px;
+}
+
+.stats .stats-item .purecounter {
+  margin-right: 60px;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.stats .stats-item p {
+  margin: 0 8px 0 0;
+}
+
+.stats .stats-item i {
+  float: right;
+}
+
+.skills .progress .skill .val {
+  float: left;
+}
+
+.resume .resume-item {
+  padding: 0 20px 20px 0;
+  border-right: 2px solid var(--accent-color);
+}
+
+.resume .resume-item ul {
+  padding-right: 20px;
+}
+
+.resume .resume-item::before {
+  right: -9px;
+}
+
+.portfolio .portfolio-filters li:first-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-filters li:last-child {
+  margin-left: 0;
+}
+
+.portfolio .portfolio-content .portfolio-info .details-link {
+  left: 50%;
+}
+
+.services .service-item .icon {
+  margin-left: 20px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  right: -5px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  left: -5px;
+}
+
+.testimonials .testimonial-item p::after {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  right: calc(50% - 20px);
+}
+
+.contact .info-item i {
+  margin-left: 15px;
+}
+
+.service-details .services-list a {
+  padding: 8px 15px 8px 0;
+  border-right: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.service-details ul i {
+  margin-left: 8px;
+}
+
