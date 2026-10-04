@@ -1,4 +1,18 @@
 
+.header {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 15px;
+  width: 300px;
+  transition: all ease-in-out 0.3s;
+  overflow-y: auto;
+  z-index: 997;
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
 
 .php-email-form .error-message {
     text-align: right;
@@ -20,7 +34,8 @@
 
   .header~main,
   .header~#footer {
-    margin-right: 0;
+    margin-left: 0;
+    margin-right: 300px;
   }
 }
 
